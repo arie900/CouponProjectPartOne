@@ -28,5 +28,5 @@ jobs:
       with:
         app-name: 'coupon-project-x'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_abe3ef339cdf4a87ad17d3f8135933c9 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_5b1454a21f3a4caab7c75b7fc0f0884f }}
         package: '${{ github.workspace }}/target/*.jar'
